@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    input{
+    width: 200px;
+    height: 30px;
+    }
+
+    body{
+    text-align: center;
+    }
+
+    button{
+    background: rgba(210, 90, 240);
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    border-color: white;
+    border-radius: 5px;
+    }
+    button:hover{
+    filter: brightness(90%);
+    cursor: pointer;
+    }
+    button:active{
+    filter: brightness(80%);
+    cursor: pointer;
+    }
+#loginWindow{
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    z-index: 100;
+    }
+    #tvButton3{
+    background: linear-gradient(100deg, rgba(255, 205, 220), rgba(100, 40, 255) 80%);
+    }
+  </style>
+
+</head>
+<body>
+<div id="loginWindow">
+  <h3>OREUMI 동물사전</h3>
+  <div>
+    <form name="log" id="loginForm">
+      <input type="text" name="id" placeholder="Id"><br><br>
+      <input type="password" name="pw" placeholder="Password"><br><br>
+      <button id="tvButton3" onclick="popup()">로그인</button>
+    </form>
+  </div>
+</div>
+
+<script src="../js/js.js"></script>
+</body>
+</html>
