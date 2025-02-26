@@ -47,7 +47,7 @@ for(i=1; i<=12; i++){
     });
 }
 const monitorPage = document.getElementById('box2_0');
-const monitorPopup = document.getElementById('box2');
+const monitorPopup = document.getElementById('box2_1');
 const monitorButton = document.getElementById('tvButton');
 const monitorButton2 = document.getElementById('tvButton2');
 const monitorButton3 = document.getElementById('tvButton3');
