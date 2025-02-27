@@ -4,6 +4,8 @@
         linear-gradient(30deg, rgb(230,170,230, .7), rgb(240,230,244,0.1) 20%),
         linear-gradient(300deg, rgb(30,10,170,.9), rgb(0,0,255,0.5) 75%);
         background-color: black;
+        width: 100%;
+        height: 100%;
     }
 
     nav{
@@ -29,9 +31,11 @@
         color: white;
         background-color: black;
     }
+
     #moreButton:hover{
         filter: brightness(70%);
     }
+
     #moreButton:active{
        filter: brightness(50%);
     }
@@ -77,6 +81,7 @@
     #xButton:hover{
         filter: brightness(80%);
     }
+
     #xButton:active{
         filter: brightness(50%);
     }
@@ -96,9 +101,11 @@
             width: 0ch;
         }
     }
+
     #mainImage{
         text-align: center;
     }
+
     .mainTitle{
         width: 1200px;
         margin-top: 200px;
@@ -108,15 +115,12 @@
         color: white;
         z-index: 10;
         position: absolute;
-        top: 50px;
+        top: 10%;
         bottom:0;
         left: 0;
         right: 0;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    body{
     }
 
     #backGround{
@@ -142,15 +146,15 @@
 
     #animal{
         width: 100%;
-        height: 83vh;
+        height: 85vh;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
         margin-top: 0%;
-        margin-bottom: 10%;
-        margin-left: auto;
-        margin-right: auto;
+        margin-bottom: 0%;
+        margin-left: auto%;
+        margin-right: auto%;
         text-align: center;
         color: white;
         border-color: white;
@@ -180,8 +184,8 @@
 
     #box2_0{
         color: blue;
-        width: 50%;
-        height: 50vh;
+        width: 60%;
+        height: 55vh;
         background-color: black;
         border: 7px solid;
         border-color: black;
@@ -199,12 +203,18 @@
         padding: 30px;
     }
 
+    #imagesBox{
+        width: 100%;
+        height: 100%;
+        display:  inline-block;
+    }
+
     .tv{
         color: rgba(160, 70, 160, 0.7);
-        font-size: 20px;
+        font-size: 30px;
         font-weight: bold;
-        width: 100px;
-        height: 40px;
+        width: 180px;
+        height: 60px;
         background-color: linear(140, 70, 190, 0.7);
         border-radius: 10px;
         border: 1px solid;
@@ -220,10 +230,11 @@
         filter: brightness(50%);
     }
 
+
     #box2_1{
         display: none;
-        width: 50%;
-        height: 50vh;
+        width: 60%;
+        height: 55vh;
         background-color: black;
         border: 7px solid;
         border-color: black;
@@ -254,10 +265,10 @@
         margin-top:5px;
         text-align: right;
     }
+
     .box1_Content{
         display: inline-block;
         width: 320px;
-
         height: 2vh;
         text-align: center;
         color: black;
@@ -269,6 +280,7 @@
         margin-bottom: 45%;
         margin-top: 0%;
     }
+
     .box_tag{
         color: rgba(11, 110, 200);
         font-weight: bold;
@@ -276,23 +288,20 @@
 
    .box2_image{
         width: 30%;
-        height: 70%;
+        height: 80%;
         padding: 0;
-        margin-left: 0px;
+        margin-left: 10px;
         margin-right: 0px;
         border-radius: 0px;
         cursor: pointer;
-
    }
 
    .box2_image:hover{
         filter:brightness(80%);
-
    }
 
    .box2_image:active{
         filter:brightness(50%);
-
    }
 
    #profile_image{
@@ -328,7 +337,7 @@
    }
 
    .modal_Image{
-    }
+   }
 
    .modalTitle{
         color: black;
@@ -357,13 +366,14 @@
    .close:hover{
         filter: brightness(80%);
    }
+
    .close:active{
         filter: brightness(40%);
    }
 
    .contentBox0{
-        width: 1000px;
-        height: 655px;
+        width: 55vw;
+        height: 75.5vh;
         display: flex;
         left: 0;
         right: 0;
@@ -377,14 +387,16 @@
    }
 
    .contentBox1{
+        width: 55vw;
         text-align: left;
-        height: 600px;
+        height: 74vh;
         border: 3px solid;
         border-color: white;
    }
+
    .contentBox2{
-        width: 800px;
-        height: 600px;
+        width: 55vw;
+        height: 74vh;
         text-align: left;
         padding-left: 30px;
         padding-right: 30px;
@@ -393,29 +405,33 @@
         background-color: white;
         border: 3px solid;
         border-color: white;
+        overflow-y: scroll;
    }
+
    #galleryTitle2{
         color: transparent;
         background: linear-gradient(160deg, rgba(255, 255, 70), rgba(100, 40, 255)60%);
         background-clip: text;
         margin-top: 10%;
         width: 100%;
+        font-size: 100px;
    }
+
    .galleryTitle{
         color: white;
-        font-size: 70px;
    }
 
     .contentDivButton{
-         height: 600px;
+         height: 74vh;
          width:50px;
          background-color: white;
          border: 3px solid;
          border-color: white;
     }
+
     #tvTitle{
         width: 100%;
-        font-size: 30px;
+        font-size: 50px;
         font-weight: bold;
         text-align: center;
         color: transparent;
@@ -436,8 +452,9 @@
         margin-top: auto;
         margin-bottom: auto;
     }
+
     #monitor2{
-            width:400px;
+            width:500px;
             height: 20px;
             background-color: black;
             border-radius: 50px;
@@ -449,4 +466,16 @@
             margin-right: auto;
             margin-top: auto;
             margin-bottom: auto;
+    }
+
+    #footerDiv{
+        width: 99.5%;
+        height: 100px;
+        margin-left: 0px;
+        background-color: rgba(0,2,0,0.4);
+        text-align: center;
+        color:white;
+        font-size: 20px;
+        position: relative;
+        display: flex;
     }
