@@ -475,6 +475,7 @@
         background-color: rgba(0,2,0,0.4);
         text-align: center;
         color:white;
+        font-weight: bold;
         font-size: 20px;
         position: relative;
         display: flex;
