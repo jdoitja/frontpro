@@ -25,39 +25,39 @@ function popup(){
     window.close();
 }
 
-var images = [
-    "../image/dolphin.jpg",
-    "../image/cat.jpg",
-    "../image/owl.jpg",
-    "../image/fox.png",
-    "../image/highland-cattle.jpg",
-    "../image/bear.jpg",
-    "../image/flamingo.jpg",
-    "../image/sheep.jpg",
-    "../image/gorilla.jpg",
-    "../image/elephant.jpg",
-    "../image/eagle.jpg",
-    "../image/tiger.jpg"
+const images = [
+    "image/dolphin.jpg",
+    "image/cat.jpg",
+    "image/owl.jpg",
+    "image/fox.png",
+    "image/highland-cattle.jpg",
+    "image/bear.jpg",
+    "image/flamingo.jpg",
+    "image/sheep.jpg",
+    "image/gorilla.jpg",
+    "image/elephant.jpg",
+    "image/eagle.jpg",
+    "image/tiger.jpg"
 ];
 
-var container = document.getElementById('imagesBox');
+const container = document.getElementById('imagesBox');
 
-for (var i = 0; i < images.length; i++) {
-    var img = document.createElement('img');
+for (let i = 0; i < images.length; i++) {
+    const img = document.createElement('img');
     img.src = images[i];
     img.id = 'animalImages' + (i + 1);
     img.classList.add('box2_image');
     container.appendChild(img);
 
-    var popupDiv = document.getElementById(`popupDiv${i + 1}`);
-    var popupModal = document.getElementById(`animalImages${i + 1}`);
-    var popupImage = document.getElementById(`modalImages${i + 1}`);
-    var closeButton = document.getElementById(`closeButton${i + 1}`);
+    let popupDiv = document.getElementById(`popupDiv${i + 1}`);
+    let popupModal = document.getElementById(`animalImages${i + 1}`);
+    let popupImage = document.getElementById(`modalImages${i + 1}`);
+    let closeButton = document.getElementById(`closeButton${i + 1}`);
 
     popupModal.addEventListener('click', function (){
-        var index = this.id.replace('animalImages','')
-        var popupDiv = document.getElementById(`popupDiv${index}`);
-        var popupImage = document.getElementById(`modalImages${index}`);
+        const index = this.id.replace('animalImages','')
+        const popupDiv = document.getElementById(`popupDiv${index}`);
+        const popupImage = document.getElementById(`modalImages${index}`);
 
         popupDiv.style.display = 'flex';
         popupImage.src = this.src;
@@ -67,8 +67,8 @@ for (var i = 0; i < images.length; i++) {
     });
 
     closeButton = closeButton.addEventListener('click', function(event){
-        var index = this.id.replace('closeButton', '');
-        var popupDiv = document.getElementById(`popupDiv${index}`);
+        const index = this.id.replace('closeButton', '');
+        const popupDiv = document.getElementById(`popupDiv${index}`);
         popupDiv.style.display = 'none';
         document.body.style.overflow = "unset";
         });
