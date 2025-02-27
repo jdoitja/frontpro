@@ -80,7 +80,6 @@ const monitorButton = document.getElementById('tvButton');
 const monitorButton2 = document.getElementById('tvButton2');
 const monitorButton3 = document.getElementById('tvButton3');
 
-
 function openPage(){
     monitorPopup.style.display = 'block';
     monitorPage.style.display = 'none';
