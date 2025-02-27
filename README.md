@@ -18,7 +18,25 @@
     페이지의 배치가 생각보다 어려웠음 (CSS)
     이미지를 HTML에서 삽입하는 것이아니라 JAVASCRIPT로 동적으로 삽입하는 과정이 매우 어려웠음
 
+  
+  5.구현된 페이지
 ![스크린샷 2025-02-27 145104](https://github.com/user-attachments/assets/1d33f10f-0369-46e5-a1d1-771114fbaf7a)
-![스크린샷 2025-02-27 145134](https://github.com/user-attachments/assets/d1a74821-b309-43a0-91ed-ceec7ecb118e)
-![스크린샷 2025-02-27 145129](https://github.com/user-attachments/assets/1f32626f-84bb-4846-a0ae-43a843898732)
+
+  linear-gradient속성을 사용한 그라데이션 배경, 이미지 추가
+  
 ![스크린샷 2025-02-27 145112](https://github.com/user-attachments/assets/491df8a6-3ac7-4888-b165-7c7a88763823)
+  div, p, 등 다양한 태그를 활용하여 작성
+
+![스크린샷 2025-02-27 145134](https://github.com/user-attachments/assets/d1a74821-b309-43a0-91ed-ceec7ecb118e)
+  로그인버튼 window open을 활용한 로그인 팝업창 구현
+  
+![스크린샷 2025-02-27 145129](https://github.com/user-attachments/assets/1f32626f-84bb-4846-a0ae-43a843898732)
+
+  이미지를 createElement를 활용하여 div에 이미지를 동적으로 삽입
+  반복문을 통해 클릭이벤트 구현
+
+  
+![스크린샷 2025-02-27 145708](https://github.com/user-attachments/assets/88424eeb-6ce0-49a8-a869-7ee65a21f8ca)
+
+  클릭이벤트를 통해 모달 팝업창을 구현함
+  배열과 반복문을 사용
