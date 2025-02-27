@@ -19,3 +19,6 @@
     이미지를 HTML에서 삽입하는 것이아니라 JAVASCRIPT로 동적으로 삽입하는 과정이 매우 어려웠음
 
 ![스크린샷 2025-02-27 145104](https://github.com/user-attachments/assets/1d33f10f-0369-46e5-a1d1-771114fbaf7a)
+![스크린샷 2025-02-27 145134](https://github.com/user-attachments/assets/d1a74821-b309-43a0-91ed-ceec7ecb118e)
+![스크린샷 2025-02-27 145129](https://github.com/user-attachments/assets/1f32626f-84bb-4846-a0ae-43a843898732)
+![스크린샷 2025-02-27 145112](https://github.com/user-attachments/assets/491df8a6-3ac7-4888-b165-7c7a88763823)
