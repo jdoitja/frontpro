@@ -6,13 +6,13 @@ const xButton = document.getElementById('xButton');
 
 
 moreButton.addEventListener('click', function(event){
-mainImage.style.display = 'none';
-morePage.style.display = 'block';
+    mainImage.style.display = 'none';
+    morePage.style.display = 'block';
 });
 
 xButton.addEventListener('click', function(event){
-mainImage.style.display = 'block';
-morePage.style.display = 'none';
+    mainImage.style.display = 'block';
+    morePage.style.display = 'none';
 });
 
 
@@ -62,7 +62,7 @@ for (let i = 0; i < images.length; i++) {
         popupDiv.style.display = 'flex';
         popupImage.src = this.src;
         document.body.style.overflow = "hidden";
-        popupImage.style.width = '32vw';
+        popupImage.style.width = '27vw';
         popupImage.style.height = '75vh';
     });
 
@@ -86,6 +86,6 @@ function openPage(){
 }
 
 monitorButton2.addEventListener('click', function(event){
-monitorPage.style.display = 'block';
-monitorPopup.style.display = 'none';
+    monitorPage.style.display = 'block';
+    monitorPopup.style.display = 'none';
 });
