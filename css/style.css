@@ -20,7 +20,7 @@
         padding-right: 300px;
         margin-top:0px;
         position: fixed;
-        background-color: rgb(255, 255, 255, 0);
+        background-color: rgb(10, 10, 10, 0.4);
         z-index: 30;
     }
 
@@ -57,6 +57,12 @@
         border-radius: 5px;
         color: white;
         box-shadow: 100px;
+    }
+
+    .hTag{
+    border: 1px solid;
+    border-color: white;
+    background-color: rgba(180, 180, 180, 0.3);
     }
 
     a{
@@ -164,7 +170,7 @@
 
     #box1{
         width: 100%;
-        height: 92%;
+        height: 100%;
         border: 7px solid transparent;
         border-color: rgba(122, 122, 122, 0.3);
         border-radius: 10px;
@@ -186,7 +192,7 @@
     #box2_0{
         color: blue;
         width: 60%;
-        height: 55vh;
+        height: 65vh;
         background-color: black;
         border: 7px solid;
         border-color: black;
@@ -201,7 +207,7 @@
         font-weight: bold;
         font-size: 70px;
         z-index: 0;
-        padding: 30px;
+        padding: 10px;
     }
 
     #imagesBox{
@@ -212,10 +218,10 @@
 
     .tv{
         color: rgba(160, 70, 160, 0.7);
-        font-size: 30px;
+        font-size: 1vw;
         font-weight: bold;
-        width: 180px;
-        height: 60px;
+        width: 150px;
+        height: 50px;
         background-color: linear(140, 70, 190, 0.7);
         border-radius: 10px;
         border: 1px solid;
@@ -234,7 +240,7 @@
     #box2_1{
         display: none;
         width: 60%;
-        height: 55vh;
+        height: 65vh;
         background-color: black;
         border: 7px solid;
         border-color: black;
@@ -248,7 +254,7 @@
         margin-right: auto;
         text-align: center;
         overflow-y: scroll;
-        padding: 30px;
+        padding: 10px;
         z-index: 1;
     }
 
@@ -268,8 +274,9 @@
 
     .box1_Content{
         display: inline-block;
-        width: 320px;
+        width: 350px;
         height: 2vh;
+        font-weight: bold;
         text-align: center;
         color: black;
         color: rgba(50, 50, 50);
@@ -283,17 +290,21 @@
 
     .box_tag{
         color: rgba(11, 110, 200);
-        font-weight: bold;
+        font-size: 20px;
     }
 
    .box2_image{
-        width: 30%;
-        height: 80%;
+        width: 11vw;
+        height: 31vh;
         padding: 0;
-        margin-left: 10px;
-        margin-right: 0px;
-        border-radius: 0px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 5px;
+        border-radius: 10px;
         cursor: pointer;
+   }
+   #imagesBox{
+    width: 50vw;
    }
 
    .box2_image:hover{
@@ -334,6 +345,7 @@
         margin-left: auto;
         margin-right: auto;
         text-align: center;
+
    }
 
    .modal_Image{
@@ -431,7 +443,7 @@
 
     #tvTitle{
         width: 100%;
-        font-size: 50px;
+        font-size: 2vw;
         font-weight: bold;
         text-align: center;
         color: transparent;
